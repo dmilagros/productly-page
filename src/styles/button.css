@@ -1,0 +1,25 @@
+.secondaryButton {
+  background-color: transparent;
+  border: 2px solid var(--secondary);
+  color: var(--tertiary);
+  border-radius: 5px;
+  width: 102px;
+  height: 46px;
+  font-weight: bold;
+}
+
+.primaryButton {
+  background-color: var(--primary);
+  border: 2px solid var(--primary);
+  color: var(--white);
+  border-radius: 5px;
+  width: 102px;
+  height: 46px;
+  font-weight: bold;
+}
+
+.linkButton {
+  background-color: transparent;
+  border: none;
+  color: var(--primary);
+}
