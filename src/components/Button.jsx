@@ -1,10 +1,12 @@
 import React from "react";
 import "../styles/button.css";
 
-const Button = ({ button, name }) => {
+const Button = ({ button, name, icon }) => {
   return (
     <>
-      <button className={button}>{name}</button>
+      <button className={button}>
+        {icon ? <img src={icon} alt="" /> : null} {name}
+      </button>
     </>
   );
 };
