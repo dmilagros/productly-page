@@ -1,3 +1,9 @@
+@import "./styles/button.css";
+@import "./styles/navigation.css";
+@import "./styles/header.css";
+@import "./styles/feature.css";
+@import "./styles/cardSection.css";
+
 @font-face {
   font-family: poppins;
   src: url("./assets/fonts/Poppins-Regular.otf");
@@ -27,6 +33,18 @@
   --gray: #544837;
   --black: #2f281e;
   --white: #ffffff;
+  --gradient: linear-gradient(
+    179.59deg,
+    rgba(255, 229, 210, 0.629261) 0.35%,
+    rgba(255, 244, 229, 0.0001) 99.63%
+  );
+  --title: normal bold 44px/1.5 poppins;
+  --subtitle: normal bold 36px/1.5 poppins;
+  --headline5: normal bold 22px/1.5 poppins;
+  --headline6: normal bold 16px/1.5 poppins;
+  --paragraph: normal 400 16px/1.5 poppins;
+  --lineHeightSub: 54px;
+  --lineHeightText: 26px;
 }
 
 body {
