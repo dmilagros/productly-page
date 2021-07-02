@@ -1,0 +1,33 @@
+.nav {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.nav a {
+  margin-right: auto;
+}
+
+.menu-list {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  width: 350px;
+  padding: 0;
+  margin-right: 19px;
+  float: right;
+}
+
+.menu-list a {
+  list-style: none;
+  text-decoration: none;
+  color: var(--black);
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  width: 244px;
+  margin-left: 18px;
+  float: right;
+}
